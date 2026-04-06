@@ -6,17 +6,17 @@ A drag-and-drop page builder where you can create, manage, and customize persona
 ---
 
 ## 📋 Table of Contents
-- [What It Does](#what-it-does)
-- [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
-- [Getting Started](#getting-started)
-- [How It Works](#how-it-works)
-- [Block Types](#block-types)
-- [Pages & Routing](#pages--routing)
-- [State Management](#state-management)
-- [How Drag & Drop Works](#how-drag--drop-works)
-- [LocalStorage Persistence](#localstorage-persistence)
-- [Available Scripts](#available-scripts)
+- [What It Does](#-what-it-does)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [How It Works](#-how-it-works)
+- [Block Types](#-block-types)
+- [Pages & Routing](#-pages--routing)
+- [State Management](#-state-management)
+- [How Drag & Drop Works](#-how-drag--drop-works)
+- [LocalStorage Persistence](#-localstorage-persistence)
+- [Available Scripts](#-available-scripts)
 
 ---
 
@@ -215,7 +215,6 @@ dragSource.current = null; // Clear after use
 ```
 
 The **drop indicator** (the glowing line between blocks) is in state because we want the UI to update when it moves:
-
 ```js
 const [dropIndicator, setDropIndicator] = useState(null);
 // Example: { index: 2, position: 'before' }
